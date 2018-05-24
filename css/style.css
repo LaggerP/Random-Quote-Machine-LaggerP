@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  background: #ff00cc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.boxMain {
+  font-family: 'Jua', sans-serif;
+  margin-top: 100px;
+  border-radius: 2px solid black;
+  color: white;
+}
+
+.boxMain > .boxQuote {
+  height: 300px;
+  margin: 20px;
+  padding: 50px;
+  background-color: #067ec836;
+  border-radius: 50px;
+  color: white;
+}
+
+.boxMain > .boxQuote > button {
+  margin: 30px;
+}
